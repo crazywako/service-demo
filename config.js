@@ -1,3 +1,4 @@
 module.exports = {
-    publicPath: ""
+    // publicPath: "" // Use this for root path
+    publicPath: "/service-demo"
 }

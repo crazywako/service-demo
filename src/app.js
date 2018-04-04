@@ -10,6 +10,7 @@ import Icon from 'material-ui/Icon'
 import Grid from 'material-ui/Grid'
 import './style.scss'
 import CssBaseline from 'material-ui/CssBaseline';
+import config from '../config'
 import { withStyles } from 'material-ui/styles'
 
 
@@ -52,7 +53,7 @@ class App extends React.Component{
                 <div style={{ padding: '24px', display :'flex'}}>
                     <Grid container spacing={24} justify={'center'} alignItems={'center'} direction={'row'} style={{flexGrow: 1}}>
 
-                            <Router>
+                            <Router basename={config.publicPath}>
                                 <Grid container  justify={'center'} alignItems={'center'} direction={'row'} >
                                     <Route exact path="/" component={Home} />
                                     <Route exact path="/service-form" component={Form} />

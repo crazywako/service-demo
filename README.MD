@@ -5,10 +5,11 @@
 - Use any username or password
 
 ## Hosting
-- Just host `/dist` folder to any webserver on root path.
-    - ex. https://example.com/
+- Just host `/dist` folder to any webserver.
+    - ex. https://example.com/service-demo
+    - you can change public path below
     
-- Or use included NodeJS Express server with `npm run start` and http://127.0.0.1:8080
+- Or use included NodeJS Express server with `npm run start` and http://127.0.0.1:8080/service-demo
 
 ## Install
 - First do `npm install`
