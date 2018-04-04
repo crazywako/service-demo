@@ -23,7 +23,7 @@
     - Use `./config.js` and line `publicPath: "/service-demo"` and run `npm run build` to make new production version
     - Now this should run example on http://example.com/service-demo
     
-- If you wan't to change port do it on `./.env`
+- If you wan't to change port do it on `./.env` (first copy .env.default -> .env)
 - Uses `IndexedDB` to remove backend requirement
 
 
